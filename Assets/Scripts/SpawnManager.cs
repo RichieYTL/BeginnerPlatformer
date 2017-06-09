@@ -16,6 +16,7 @@ public class SpawnManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		originPosition = transform.position;
+		Spawn ();
 	}
 	
 	// Update is called once per frame

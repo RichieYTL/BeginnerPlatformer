@@ -147,9 +147,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1214425343002368, guid: 79a1c389cd8c24cdeb61120163ee1009, type: 2}
-      propertyPath: m_Name
-      value: Ground
+    - target: {fileID: 50773188079099218, guid: 79a1c389cd8c24cdeb61120163ee1009,
+        type: 2}
+      propertyPath: m_SleepingMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 79a1c389cd8c24cdeb61120163ee1009, type: 2}
@@ -464,7 +465,7 @@ GameObject:
   - component: {fileID: 1050154859}
   m_Layer: 9
   m_Name: leftFoot
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1098,23 +1099,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1214425343002368, guid: 79a1c389cd8c24cdeb61120163ee1009,
     type: 2}
   m_PrefabInternal: {fileID: 82283124}
---- !u!114 &1738868893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1738868892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 057d159baf086455b803db2723b8d412, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxPlatforms: 20
-  platform: {fileID: 0}
-  horizontalMin: 6.5
-  horizontalMax: 14
-  verticalMin: -5
-  verticalMax: 5
 --- !u!1 &1740840965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,7 +1180,7 @@ GameObject:
   - component: {fileID: 1904058932}
   m_Layer: 9
   m_Name: rightFoot
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
